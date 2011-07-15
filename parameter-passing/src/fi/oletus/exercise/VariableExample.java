@@ -1,5 +1,7 @@
 package fi.oletus.exercise;
 
+/* This file is released in the public domain */
+
 public class VariableExample {
 
 	/**

@@ -1,5 +1,7 @@
 package fi.oletus.bitwise;
 
+/* This file is released in the public domain */
+
 public class BitwiseDemo {
 
 	
@@ -27,11 +29,9 @@ public class BitwiseDemo {
 		int color2 = 0x15A1C1; // RGB #2
 		
 		int color3 = mixColors(color1, color2, 0.5f);
-		
 		System.out.println("Red: " + ((color3 & RED_MASK) >> 16));
 		System.out.println("Green: " + ((color3 & GREEN_MASK) >> 8));
 		System.out.println("Blue: " + (color3 & BLUE_MASK));
-		
 		if (checkResult(color3, 99, 106, 130))
 		{
 			System.out.println("Success!");
@@ -41,7 +41,6 @@ public class BitwiseDemo {
 		System.out.println("Red 2: " + ((color3 & RED_MASK) >> 16));
 		System.out.println("Green 2: " + ((color3 & GREEN_MASK) >> 8));
 		System.out.println("Blue 2: " + (color3 & BLUE_MASK));
-		
 		if (checkResult(color3, 138, 78, 99))
 		{
 			System.out.println("Another success!");
