@@ -43,6 +43,7 @@ public class VendingMachine {
 		VendingMachine solamaatti = new VendingMachine();
 		while (solanTarve > 0)
 		{
+			// TODO: Nappaa OutOfSolaException
 			solamaatti.ostaSolaa(PaymentMethod.COINS);
 			--solanTarve;
 		}
