@@ -2,6 +2,8 @@ package fi.oletus;
 
 import java.text.DecimalFormat;
 
+/* This file is released to the public domain. */
+
 public class VendingMachine {
 
 	enum PaymentMethod { CELLPHONE, COINS };
