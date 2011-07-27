@@ -27,9 +27,9 @@ public class ExceptionDemo {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		/* TODO: Lis‰‰ sopivaan kohtaan poikkeusk‰sittelij‰t 
-		 * (try-catch) virhe-funktion heitt‰mille poikkeuksille,
-		 * jotka tulostavat virheviestin ja t‰m‰n j‰lkeen jatkavat ohjelman toimintaa. */
+		/* TODO: Lis√§√§ sopivaan kohtaan poikkeusk√§sittelij√§t 
+		 * (try-catch) virhe-funktion heitt√§mille poikkeuksille,
+		 * jotka tulostavat virheviestin ja t√§m√§n j√§lkeen jatkavat ohjelman toimintaa. */
 		
 		int[] b = null;
 		
