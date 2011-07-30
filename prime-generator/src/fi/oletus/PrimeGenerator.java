@@ -28,6 +28,10 @@ public class PrimeGenerator {
 		primes.add(new Long(3)); // Lis‰t‰‰n muutama luku valmiiksi, ett‰ p‰‰st‰‰n nihkeist‰ erikoistapauksista eroon
 		generatePrimes(upTo);
 		System.out.println(primes.size());
+		if (primes.size() == 168)
+		{
+			System.out.println("Success!");
+		}
 	}
 
 }
