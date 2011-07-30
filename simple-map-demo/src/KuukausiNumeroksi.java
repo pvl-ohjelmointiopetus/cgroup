@@ -1,4 +1,6 @@
 
+/* This file is released to the public domain */
+
 public class KuukausiNumeroksi {
 
 	/**
